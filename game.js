@@ -130,11 +130,11 @@ var num_lap = 1, results = [], resultsName = [], funds = 100, bethorse, amount;
 //Start the function when the document loaded
 document.addEventListener("DOMContentLoaded", function(event) {
 
-	var horse1 = new Horse('horse1', 'Arno', 15, 4);
-	var horse2 = new Horse('horse2', 'Bruno', 15, 8);
-	var horse3 = new Horse('horse3', 'Jurian', 15, 12);
-	var horse4 = new Horse('horse4', 'Sarah', 15, 16);
-	var horse5 = new Horse('horse5', 'Tarik', 15, 20);
+	var horse1 = new Horse('horse1', 'Remco', 15, 4);
+	var horse2 = new Horse('horse2', 'Matthijs', 15, 8);
+	var horse3 = new Horse('horse3', 'Arno', 15, 12);
+	var horse4 = new Horse('horse4', 'Floor', 15, 16);
+	var horse5 = new Horse('horse5', 'Aart', 15, 20);
 
 	//Event listener to the Start button
 	document.getElementById('start').onclick = function(){
